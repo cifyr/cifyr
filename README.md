@@ -22,11 +22,38 @@ My work sits at the intersection of **AI** and **the web**, where I turn experim
 
 ---
 
+### `> featured`
+
+<div align="center">
+
+<a href="https://github.com/cifyr/motionary">
+  <img src="https://raw.githubusercontent.com/cifyr/motionary/main/docs/images/design-spidey.gif" alt="Motionary — an animated full-screen iPhone Home Screen widget" width="200">
+</a>
+
+</div>
+
+**[Motionary](https://github.com/cifyr/motionary)** — animated, full-screen iPhone Home Screen widgets, with tappable app launchers placed on them.
+
+iOS gives a widget no way to animate. Motionary does it anyway: frames of video are baked into OpenType colour glyphs, and a ticking `Text(style: .timer)` swaps one picture for the next — 64 fonts deep, with a mask that shows one at a time. A macOS studio app compiles a clip into those fonts, cuts the wallpaper to line up with the widget's measured frame, and installs the whole thing to a phone.
+
+<div align="center">
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=flat-square&logo=swift&logoColor=white)
+![WidgetKit](https://img.shields.io/badge/WidgetKit-1D1D1F?style=flat-square&logo=apple&logoColor=white)
+![CoreText](https://img.shields.io/badge/Core_Text-1D1D1F?style=flat-square&logo=apple&logoColor=white)
+
+[![Repo](https://img.shields.io/badge/cifyr/motionary-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cifyr/motionary)
+
+</div>
+
+---
+
 ### `> currently_building`
 
 ```python
 class Now:
-    working_on  = "🔨 Shipping my next project — stay tuned"
+    working_on  = "🔨 Motionary — animated iPhone Home Screen widgets"
     learning    = "🧠 Deepening my knowledge of LLMs & agent frameworks"
     exploring   = "🔭 New ways to bridge AI with great UX"
 ```
@@ -42,6 +69,7 @@ class Now:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 
 **AI / Data**
 
